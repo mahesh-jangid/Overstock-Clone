@@ -1,35 +1,35 @@
 export const Deals = ({ offers }) => {
   return (
-    <div class="container-fluid universalSpacingX">
-      <div class="row">
-        <div class="col limitedtimeDiv">
-          <div class="limitedtimeHeadingDiv">
-            <h2 class="limitedtimeHeading">Limited-Time Deals</h2>
+    <div className="container-fluid universalSpacingX">
+      <div className="row">
+        <div className="col limitedtimeDiv">
+          <div className="limitedtimeHeadingDiv">
+            <h2 className="limitedtimeHeading">Limited-Time Deals</h2>
           </div>
         </div>
       </div>
 
-      <div class="row universalSpacing">
-        <div class="col">
-          <div class="offerContainer">
+      <div className="row universalSpacing">
+        <div className="col">
+          <div className="offerContainer">
             {offers.map((items) => {
               return (
-                <div class="offerCard">
+                <div className="offerCard">
                   <a
                     href="category.html"
-                    class="offerCardLink"
+                    className="offerCardLink"
                     onclick="page(`Rugs`)"
                   >
-                    <div class="offerCardImgDiv">
+                    <div className="offerCardImgDiv">
                       <img
                         style={{ backgroundColor: "#FEF8E8" }}
-                        class="offerCardImg"
+                        className="offerCardImg"
                         src={items.src}
                         alt=""
                       />
                     </div>
-                    <div class="offerCardTitleDiv">
-                      <h3 class="title-xs offerCardTitle">{items.title}</h3>
+                    <div className="offerCardTitleDiv">
+                      <h3 className="title-xs offerCardTitle">{items.title}</h3>
                     </div>
                   </a>
                 </div>

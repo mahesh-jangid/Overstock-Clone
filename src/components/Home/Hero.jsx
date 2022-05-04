@@ -1,22 +1,22 @@
 import "../../App.css";
 
-export const Banner = () => {
+export const Hero = () => {
   return (
-    <div class="contianer-fluid">
-      <div class="row">
-        <div class="col">
+    <div className="contianer-fluid">
+      <div className="row">
+        <div className="col">
           <a href="category.html">
-            <div class="banner">
-              <div class="bannerDiv">
+            <div className="banner">
+              <div className="bannerDiv">
                 <div>
                   <img
-                    class="bannerimg1"
+                    className="bannerimg1"
                     src="https://overstock-clone.s3.ap-south-1.amazonaws.com/01102022-HP-A1-1400x550_INTL.webp"
                   />
                 </div>
                 <div>
                   <img
-                    class="bannerimg2"
+                    className="bannerimg2"
                     src="https://overstock-clone.s3.ap-south-1.amazonaws.com/01102022-HP-A1-1400x550_INTL.svg"
                   />
                 </div>
