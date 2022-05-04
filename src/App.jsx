@@ -110,11 +110,11 @@ function App() {
   ];
   const Offer_Deals = [
     {
-      src: "https://ak1.ostkcdn.com/img/mxc/04292022_HB_INTL_1.svg?imwidth=1920",
+      src: "https://ak1.ostkcdn.com/img/mxc/04292022_HB_INTL_2.svg?imwidth=1920",
       title: "Select Garden & Patio",
     },
     {
-      src: "https://ak1.ostkcdn.com/img/mxc/04292022_HB_INTL_2.svg?imwidth=1920",
+      src: "https://ak1.ostkcdn.com/img/mxc/04292022_HB_INTL_1.svg?imwidth=1920",
       title: "Select Living Room Furniture",
     },
     {
@@ -139,7 +139,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/login" element={<Banners />}></Route>
+        <Route path="/login" element={<Login />}></Route>
         <Route path="/logout"></Route>
         <Route
           path="/furniture"
