@@ -32,10 +32,8 @@ export const ImageSlider = ({ imagess }) => {
                 <img src={item.src} alt={item.alt} />
               </div>
               <div className="slides">
-                <h3 className="">Chic Shag Rugs​</h3>
-                <h4 className="">
-                  Opt for classNameic comforts with plush and pretty shag rugs.
-                </h4>
+                <h3 className="">{item.heading}</h3>
+                <h4 className="">{item.subhead}</h4>
               </div>
             </div>
           ))}
