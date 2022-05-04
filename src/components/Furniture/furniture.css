@@ -1,0 +1,258 @@
+#furniture_headDiv{
+  margin-top: 00px;
+  height: 70px;
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#furniture_headDiv > p {
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(59, 59, 59);
+}
+
+
+#picshow_1{
+  height:650px;
+  width:90%;
+  display:flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+
+}
+
+#picshow_1 > div:nth-child(1) {
+  width:25%;
+
+}
+
+#picshow_1 > div:nth-child(1) > div:nth-child(1) {
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(44, 44, 44);
+} 
+
+#picshow_1 > div:nth-child(1) > div {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(59, 59, 59);
+}
+
+#picshow_1 > div:nth-child(1) > div:last-child {
+  color:red;
+  font-size: 16px;
+}
+
+#picshow_1 > div:nth-child(1) > div:nth-child(15):hover {
+
+  color: red;
+  border-left: 2px solid red;
+
+}
+
+
+#picshow_1 > div:nth-child(1) > div {
+  height:30px;
+  width:250px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+#picshow_1 > div:nth-child(1) > div > p{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+/* #picshow_1 > div:nth-child(1) > div:hover {
+  border-left: 2px solid rgb(0, 67, 129);
+  color:rgb(0, 67, 129);
+  font-weight: 800px;
+} */
+
+#picshow_1 > div:nth-child(2) {
+  display:flex;
+  margin-left: 40px;
+} 
+
+#picshow_1 > div:nth-child(2) > div:nth-child(1){
+  width:80%;
+  margin-right: 0px;
+}
+
+
+#picshow_1 > div:nth-child(2) > div:nth-child(2){
+  margin-left: 20px;
+}
+
+#picshow_1 > div:nth-child(2) > div:nth-child(2) > img{
+  height:300px;
+  width:350px;
+  background-color: rgb(235, 233, 233);
+  
+
+}
+
+#picshow_1 > div:nth-child(2) > div:nth-child(2) > img:nth-child(1){
+  margin-bottom: 80px;
+}
+
+
+#picshow_2{
+  height:auto;
+  width:95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+
+#picshow_2 > p{
+  font-size: 35px;
+  color: rgb(51, 51, 51);
+  font-weight: 600;
+  text-align: center;
+}
+
+#picshow_2 img{
+  height:335px;
+}
+
+#picshow_2 > div{
+  height:auto;
+  width:100%;
+  display: flex;
+  gap:10px;
+}
+
+#picshow_2 > div > div{
+  height:380px;
+  width:335px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+#picshow_2 > div > div > p{
+  margin-top: 10px;
+}
+
+#picshow_3{
+  height:auto;
+  width:95%;
+  display: flex;
+  gap:20px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#picshow_3 > div:nth-child(2){
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+#picshow_3 > div:nth-child(2) > p:nth-child(1) {
+  margin-top: 5px;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(37, 37, 37);
+}
+
+#picshow_3 > div:nth-child(2) > p:nth-child(2) {
+
+  width: 680px;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(85, 85, 85);
+}
+
+#picshow_3 button {
+  height:35px;
+  width:100px;
+  margin-top: 30px;
+  border: 1px solid rgb(32, 32, 32);
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+
+
+#picshow_4{
+  height:auto;
+  width:95%;
+  display: flex;
+  gap:20px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#picshow_4 > div:nth-child(1){
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+#picshow_4 > div:nth-child(1) > p:nth-child(1) {
+  margin-top: 5px;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(37, 37, 37);
+}
+
+#picshow_4 > div:nth-child(1) > p:nth-child(2) {
+
+  width: 680px;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(85, 85, 85);
+}
+
+#picshow_4 button {
+  height:35px;
+  width:100px;
+  margin-top: 30px;
+  border: 1px solid rgb(32, 32, 32);
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+
+#picshow_5{
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+#picshow_5 > div{
+  display:flex;
+  gap:30px;
+  height: auto;
+  width:auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#picshow_5 > p{
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(48, 47, 47);
+  text-align: center;
+}
