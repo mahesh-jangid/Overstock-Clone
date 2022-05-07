@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  padding: 5% 5%;
+  border: black 1px solid;
+  gap: 2%;
+}
+.products {
+  flex: 3;
+  border: black 1px solid;
+  padding: 1% 1%;
+}
+.items {
+  display: flex;
+  border: black 1px solid;
+  padding: 2% 2%;
+  justify-content: flex-start;
+}
+.imgCont {
+  flex: 1;
+  border: blue 1px solid;
+}
+.info {
+  flex: 3;
+  border: red 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  text-align: start;
+  margin: 0% 3%;
+}
+.total {
+  flex: 1;
+  border: black 1px solid;
+}
+
+.remove {
+  display: flex;
+}
+.remove a {
+  margin-right: 10%;
+}
