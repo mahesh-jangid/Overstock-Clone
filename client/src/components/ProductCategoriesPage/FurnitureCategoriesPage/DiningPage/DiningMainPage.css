@@ -1,0 +1,496 @@
+
+.DiningMainContainer {
+
+    /* border : 1px solid; */
+    width: 96.5vw;
+    padding: 1vw 1.5vw 1vw .6vw;
+    background: rgb(255,255,255);
+}
+
+.DiningHeading {
+    /* border: 1px solid; */
+    margin: auto 0 auto .5vw;
+
+    padding: 0 0 0 .5vw;
+}
+
+.DiningCategories__OfferBox {
+    /* border: 1px solid; */
+    width: 97.4%;
+    margin: auto;
+    margin-top: 1vw;
+    padding: 1vw;
+    display: flex;
+    gap: 1vw;
+}
+
+.DiningCategories__Box {
+    /* border: 1px solid; */
+    padding: 1vw;
+    width: 26%;
+}
+
+.DiningCategories__Box > h5 {
+    /* border: 1px solid; */
+    margin: auto;
+    margin-bottom: .5vw;
+    padding: .6vw;
+    font-size: 1.5vw;
+    font-weight: 100;
+    cursor: pointer;
+}
+.DiningCategories__Box > a {
+
+    margin: auto;
+    margin-bottom: .5vw;
+    padding: .6vw;
+    font-size: 1.5vw;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.DiningCategoriesOffer__Box {
+    /* border: 1px solid; */
+    padding: 1vw .5vw;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+
+.DiningCategoriesOffer__Upper-Banner {
+
+    /* border: 1px solid; */
+    display: flex;
+    width: 99.8%;
+    height: 8vw;
+}
+
+.DiningCategoriesOffer__Upper-Banner > img {
+    width: 100%;
+    height: 100%;
+}
+
+.DiningCategoriesOffer__Lower-Banner {
+    /* border: 1px solid; */
+    background-image: url("https://ak1.ostkcdn.com/img/mxc/03242022_2022Spring_DRFurn_AMOD.jpg?imwidth=1200&impolicy=custom");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 28vw;
+}
+
+.DiningCategoriesOffer__Lower-Banner > img {
+    width: 100%;
+    height: 100%;
+}
+
+.ShopByCategory__Box {
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: 2vw;
+    padding: 1vw 0;
+    width: 99.6%;
+}
+.ShopByCategory__Box > h4 {
+
+    margin: auto;
+    font-size: 1.7vw;
+    width: fit-content;
+}
+.ShopByCategory__Box > div {
+    /* border: 1px solid; */
+    margin: auto;
+    margin-top: .5vw;
+    padding: 1vw 0;
+    width: 99.8%;
+    display: grid;
+    gap: 1vw;
+    grid-template-columns: repeat(6,1fr);
+}
+.ShopByCategory__Box > div > div {
+    /* border: 1px solid; */
+    cursor: pointer;
+}
+.ShopByCategory__Box > div > div > div {
+    /* border: 1px solid; */
+    
+    display: flex;
+    width: 99%;
+    height: 14.5vw;
+}
+.ShopByCategory__Box > div > div > div > img {
+    width: 100%;
+    height: 100%;
+}
+.ShopByCategory__Box > div > div > p {
+    margin: auto;
+    margin-top: .4vw;
+    font-size: 1.5vw;
+    /* border: 1px solid; */
+    text-align: center;
+}
+
+.Sorting__Box {
+    /* border: 1px solid; */
+    
+    padding: .5vw;
+    width: 98.6%;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 1vw;
+    font-size: 1.4vw;
+}
+.Sorting__Box > select {
+    margin-left: 1vw;
+    margin: auto 1vw auto .5vw;
+    width: 16%;
+    height: 2.8vw;
+    padding: .5vw 4vw .5vw .5vw;
+    font-size: 1.4vw;
+}
+
+.Filtering__Grid-Container {
+    /* border: 1px solid;    */
+    padding: 1vw;
+    width: 97.5%;
+    margin: auto;
+    margin-top: 1vw;
+    display: flex;
+    gap: 1vw;
+}
+.Filtering__Box {
+    /* border: 1px solid; */
+    padding: 1vw;
+    width: 21%;
+}
+#VendorBox
+{
+    /* border: 1px solid; */
+    width: 97%;
+    margin: auto;
+    padding: .2vw;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: .4vw;
+    background-color: whitesmoke;
+}
+#Vendor
+{
+    /* border: 1px solid; */
+    width: 86%;
+    height: 1.65vw;
+    padding: .2vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+#VendorUpDownArrowBox
+{
+    /* border: 1px solid; */
+    width: 12%;
+    height: 2.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;    
+}
+#VendorFilterBox
+{
+    /* border: 1px solid; */
+    width: 92.5%;
+    margin: auto;
+    /* height: 19.5vw; */
+    background-color: whitesmoke;
+}
+#VendorFieldset
+{
+    /* border: 1px solid blue; */
+    height: 18vw;
+    overflow: auto;
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.Category__Filter {
+    /* border: 1px solid; */
+    text-decoration: none;
+    margin-bottom: .5vw;
+    font-size: 1.2vw;
+}
+
+.VendorInput
+{
+    /* border: 1px solid; */
+    /* width: 10%; */
+    /* height: 2vw; */
+    padding: .5vw;
+}
+.Vendorlabel
+{
+    border: 0px solid;
+    font-size: 1.1vw;
+}
+
+#PriceBox
+{
+    /* border: 1px solid; */
+    width: 97%;
+    margin: auto;
+    padding: .2vw;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: .4vw;
+    background-color: whitesmoke;
+}
+#Price
+{
+    /* border: 1px solid; */
+    width: 86%;
+    height: 1.65vw;
+    padding: .2vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+#PriceUpDownArrowBox
+{
+    /* border: 1px solid; */
+    width: 12%;
+    height: 2.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;    
+}
+#PriceFilterBox
+{
+    /* border: 1px solid; */
+    width: 92.5%;
+    margin: auto;
+    /* height: 19.5vw; */
+    background-color: whitesmoke;
+}
+#PriceFieldset
+{
+    /* border: 1px solid blue; */
+    height: 10vw;
+    overflow: auto;
+}
+.PriceInput
+{
+    /* border: 1px solid; */
+    /* width: 10%; */
+    /* height: 2vw; */
+    padding: .5vw;
+}
+.Pricelabel
+{
+    border: 0px solid;
+    font-size: 1.1vw;
+}
+
+
+#MaterialsBox
+{
+    /* border: 1px solid; */
+    width: 97%;
+    margin: auto;
+    padding: .2vw;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: .4vw;
+    background-color: whitesmoke;
+}
+#Materials
+{
+    /* border: 1px solid; */
+    width: 86%;
+    height: 1.65vw;
+    padding: .2vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+#MaterialsUpDownArrowBox
+{
+    /* border: 1px solid; */
+    width: 12%;
+    height: 2.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;    
+}
+#MaterialsFilterBox
+{
+    /* border: 1px solid; */
+    width: 92.5%;
+    margin: auto;
+    /* height: 19.5vw; */
+    background-color: whitesmoke;
+}
+#MaterialsFieldset
+{
+    /* border: 1px solid blue; */
+    height: 10vw;
+    overflow: auto;
+}
+.MaterialsInput
+{
+    /* border: 1px solid; */
+    /* width: 10%; */
+    /* height: 2vw; */
+    padding: .5vw;
+}
+.Materialslabel
+{
+    border: 0px solid;
+    font-size: 1.1vw;
+}
+
+#SizeBox
+{
+    /* border: 1px solid; */
+    width: 97%;
+    margin: auto;
+    padding: .2vw;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: .4vw;
+    background-color: whitesmoke;
+}
+#Size
+{
+    /* border: 1px solid; */
+    width: 86%;
+    height: 1.65vw;
+    padding: .2vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+#SizeUpDownArrowBox
+{
+    /* border: 1px solid; */
+    width: 12%;
+    height: 2.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2vw;    
+}
+#SizeFilterBox
+{
+    /* border: 1px solid; */
+    width: 92.5%;
+    margin: auto;
+    /* height: 19.5vw; */
+    background-color: whitesmoke;
+}
+#SizeFieldset
+{
+    /* border: 1px solid blue; */
+    height: 10vw;
+    overflow: auto;
+}
+.SizeInput
+{
+    /* border: 1px solid; */
+    /* width: 10%; */
+    /* height: 2vw; */
+    padding: .5vw;
+}
+.Sizelabel
+{
+    border: 0px solid;
+    font-size: 1.1vw;
+}
+
+.Grid__Box {
+    /* border: 1px solid; */
+    padding: 1vw;
+    width: 75%;
+    display: grid;
+    gap: 1vw;
+    grid-template-columns: repeat(3, 1fr);
+}
+.Grid__Box > div {
+    border: 1px solid rgb(222,222,222);
+    cursor: pointer;
+}
+.Grid__Box-Image {
+    /* border: 1px solid; */
+    width: 99.25%;
+    height: 22vw;
+    display: flex;
+}
+.Grid__Box-Image > img {
+
+    width: 100%;
+    height: 100%;
+}
+.Grid__Box-Content {
+
+    /* border: 1px solid; */
+    padding: .5vw;
+    width: 95.1%;
+}
+
+.Grid__Box-Content > p {
+    /* border: 1px solid; */
+    margin: auto;
+    font-size: 1.2vw;
+    color: red;
+    font-weight: 400;
+}
+.Grid__Box-Content > div {
+    /* border: 1px solid; */
+    display: flex;
+    gap: .5vw;
+    margin-top: .2vw;
+}
+.Grid__Box-Content > div > div {
+    /* border: 1px solid; */
+    display: flex;
+}
+.Grid__Box-Content > div > div > p {
+    margin: auto;
+}
+.Grid__Box-Content > div > p {
+    margin: auto auto auto .4vw;
+}
+.Grid__Box-Content > .DropDown__Box {
+    width: 99%;
+    margin: auto;
+    margin-top: .4vw;
+    display: flex;
+    /* border: 1px solid yellow; */
+}
+
+.Grid__Box-Content > .DropDown__Box > h4 {
+    /* border: 1px solid blue; */
+    margin: auto auto auto .2vw;
+    font-size: .8vw;
+    font-weight: 200;
+    text-align: justify;
+}
+.Grid__Box-Content > .DropDown__Box > button {
+    font-size: 1vw;
+    padding: 0 .2vw;
+    width: 40%;
+    border: 1;
+    cursor: pointer;
+    outline: none;
+}
+
+Link {
+    text-decoration: none;
+}
