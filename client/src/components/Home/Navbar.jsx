@@ -1,4 +1,5 @@
 import "../Header/Navbar.css";
+import { Link, useNavigate } from "react-router-dom";
 
 export const Navbar = () => {
   console.log("Navbar Call");
@@ -57,7 +58,9 @@ export const Navbar = () => {
           <div>
             <img src="https://i.postimg.cc/RCb3PDNz/User.png" alt="" />
           </div>
-          <div onclick="window.location.href='signup.html'">Account</div>
+          <div>
+            <Link to="/login">Account</Link>
+          </div>
           <div className="chevronup">
             <img src="https://i.postimg.cc/DZHpvK2K/Chevron-Up.png" alt="" />
           </div>

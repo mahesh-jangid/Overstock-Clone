@@ -30,7 +30,8 @@ import { ImageSlider } from "./components/Home/HomeCarousel";
 import { Featured } from "./components/Home/Featured";
 import { Footer } from "./components/Home/Footer";
 
-import Login from "./components/Login/Login";
+import { Login } from "./Logins/Login.jsx";
+import { Register } from "./Logins/Register.jsx";
 
 function App() {
   const imagess = [
@@ -347,6 +348,17 @@ function App() {
             </>
           }
         ></Route>
+
+        <Route
+          exact
+          path="/register"
+          element={
+            <>
+              <Navbar />
+              <Register />
+            </>
+          }
+        />
       </Routes>
     </div>
   );

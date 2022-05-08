@@ -5,7 +5,6 @@ require("dotenv").config();
 const app = express();
 
 const cors = require("cors");
-
 app.use(express.json());
 
 app.use(cors());
@@ -18,7 +17,7 @@ const middleware = (req, res, next) => {
   console.log("match");
   next();
 };
-app.use(express.static("public"));
+
 // app.use("/diningroom", FurnitureController);
 app.use("/Furniture", FurnitureController);
 app.use("/Furniturecart", FurnitureCartsController);
