@@ -30,8 +30,8 @@ import { ImageSlider } from "./components/Home/HomeCarousel";
 import { Featured } from "./components/Home/Featured";
 import { Footer } from "./components/Home/Footer";
 
-import { Login } from "./Logins/Login.jsx";
-import { Register } from "./Logins/Register.jsx";
+import { Login } from "./components/Logins/Login.jsx";
+import { Register } from "./components/Logins/Register.jsx";
 
 function App() {
   const imagess = [
