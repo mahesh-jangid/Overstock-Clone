@@ -1,4 +1,3 @@
-
 const express = require("express");
 
 require("dotenv").config();
@@ -15,11 +14,11 @@ const FurnitureController = require("./controllers/Furniture.controller");
 const FurnitureCartsController = require("./controllers/Furniture.Carts.controller");
 const CartsController = require("./controllers/Carts.controller");
 
-const middleware = (req,res,next) => {
-    console.log("match")
-    next();
-}
-
+const middleware = (req, res, next) => {
+  console.log("match");
+  next();
+};
+app.use(express.static("public"));
 // app.use("/diningroom", FurnitureController);
 app.use("/Furniture", FurnitureController);
 app.use("/Furniturecart", FurnitureCartsController);
