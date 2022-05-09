@@ -49,7 +49,7 @@ export const KitchenDiningRoomSets = () => {
         console.log('object:', object)
         var ProductId = object._id;
         console.log('ProductId:', ProductId)
-        fetch("/cart/tolivingpage")
+        fetch("https://agile-woodland-69576.herokuapp.com/cart/tolivingpage")
         .then((res) => {
             return res.json()
         })
@@ -83,7 +83,7 @@ export const KitchenDiningRoomSets = () => {
     }
 
     const Post_Product = async (furnitureId) => {
-        const result = await fetch("/cart", {
+        const result = await fetch("https://agile-woodland-69576.herokuapp.com/cart", {
             method : "POST",
             
             headers : {
@@ -100,7 +100,7 @@ export const KitchenDiningRoomSets = () => {
 
     const Patch_Product = (array) => {
         var quantity = array[1] + 1;
-        fetch("/cart/" + array[0] , {
+        fetch("https://agile-woodland-69576.herokuapp.com/cart/" + array[0] , {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json",
@@ -129,7 +129,7 @@ export const KitchenDiningRoomSets = () => {
     // }
     
     const sortData = () => {
-        axios.get(`/Furniture/Living-Room-Furniture/${sorting}`)
+        axios.get(`https://agile-woodland-69576.herokuapp.com/Furniture/Living-Room-Furniture/${sorting}`)
         // .then(res => setDiningMainData(res.data))
         .then(res => {
             return dispatch(addKitchenDiningRoomSetsData(res.data))
@@ -137,7 +137,7 @@ export const KitchenDiningRoomSets = () => {
         .catch(error => console.log("Error : ", error))
     }
     const getData = () => {
-        axios.get("/Furniture/Living-Room-Furniture")
+        axios.get("https://agile-woodland-69576.herokuapp.com/Furniture/Living-Room-Furniture")
         // .then(res => setDiningMainData(res.data))
         .then(res => {
             return dispatch(addKitchenDiningRoomSetsData(res.data))

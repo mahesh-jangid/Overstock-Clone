@@ -1,4 +1,5 @@
-import "../../App.css";
+
+import "./Home.css";
 
 export const Hero = () => {
   return (

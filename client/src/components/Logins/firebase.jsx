@@ -17,6 +17,8 @@ import {
   addDoc,
 } from "firebase/firestore";
 
+// **************** Firebase Config ************************ ///
+
 const firebaseConfig = {
   apiKey: "AIzaSyCEmPGsLYVU1J8rznEaJBFbmyr6XAJF49o",
   authDomain: "first-auth-344815.firebaseapp.com",
@@ -27,6 +29,7 @@ const firebaseConfig = {
   measurementId: "G-M1H8DKTHYF",
 };
 
+// **************** Firebase Config ************************ ///
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);

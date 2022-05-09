@@ -34,7 +34,6 @@ export const DiningMainPage = () => {
     const [pricearrow, setPriceArrow] = useState(true);
     const [sizearrow, setSizeArrow] = useState(true);
     const DiningData = useSelector((store) => store.FurnitureDiningPage.diningdata);
-    console.log(DiningData)
     console.log('DiningData:', DiningData)
     const dispatch = useDispatch();
     console.log('pricearrow:', pricearrow)
@@ -51,7 +50,7 @@ export const DiningMainPage = () => {
         console.log('object:', object)
         var ProductId = object._id;
         console.log('ProductId:', ProductId)
-        fetch("/Furniturecart")
+        fetch("https://agile-woodland-69576.herokuapp.com/Furniturecart")
         .then((res) => {
             return res.json()
         })
@@ -83,7 +82,7 @@ export const DiningMainPage = () => {
     }
 
     const Post_Product = async (furnitureId) => {
-        const result = await fetch("/Furniturecart", {
+        const result = await fetch("https://agile-woodland-69576.herokuapp.com/Furniturecart", {
             method : "POST",
             
             headers : {
@@ -103,7 +102,7 @@ export const DiningMainPage = () => {
 
     const Patch_Product = (array) => {
         var quantity = array[1] + 1;
-        fetch("/Furniturecart/" + array[0] , {
+        fetch("https://agile-woodland-69576.herokuapp.com/Furniturecart/" + array[0] , {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json",
@@ -135,7 +134,7 @@ export const DiningMainPage = () => {
     //     setDiningMainData(data);
     // }
     const sortData = () => {
-        axios.get(`/Furniture/Dining-Room-&-Bar-Furniture/${sorting}`)
+        axios.get(`https://agile-woodland-69576.herokuapp.com/Furniture/Dining-Room-Bar-Furniture/${sorting}`)
         // .then(res => setDiningMainData(res.data))
         .then(res => {
             return dispatch(addDiningProductData(res.data))
@@ -143,7 +142,7 @@ export const DiningMainPage = () => {
         .catch(error => console.log("Error : ", error))
     }
     const getData = () => {
-        axios.get("/Furniture/Dining-Room-&-Bar-Furniture")
+        axios.get("https://agile-woodland-69576.herokuapp.com/Furniture/Dining-Room-Bar-Furniture")
         // .then(res => setDiningMainData(res.data))
         .then(res => {
             return dispatch(addDiningProductData(res.data))

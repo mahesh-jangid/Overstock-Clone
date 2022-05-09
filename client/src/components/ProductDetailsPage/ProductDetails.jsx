@@ -28,7 +28,7 @@ export const ProductDetails = () => {
     },[]);
 
     const getData = () => {
-        axios.get(`/${area}/${id}`)
+        axios.get(`https://agile-woodland-69576.herokuapp.com/${area}/${id}`)
         
         // .then(res => setdata(res.data))
         .then(res => dispatch(addProductDetails(res.data)))
