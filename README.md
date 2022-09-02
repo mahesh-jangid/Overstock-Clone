@@ -27,7 +27,7 @@ Deployed using heroku
 Clone the project
 
 
-https://github.com/rahulr41180/Overstock--Clone
+https://github.com/mahesh-jangid/Overstock-Clone
 
 
 Install npm packages
